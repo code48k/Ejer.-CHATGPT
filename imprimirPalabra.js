@@ -2,6 +2,6 @@
 
 for (let i=1; i<=10; i++){
 
-    console.log(`Impresión de la palabra: Hola Mundo!!! ${i} vez`);
+    console.log(`Impresión de la palabra: Hola Mundo!!! ${i} vez`); 
     
 }
