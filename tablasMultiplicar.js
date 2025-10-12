@@ -4,11 +4,11 @@ let numeroDinamico = 0;
 
 for (let i=1; i<=10; i++){
     
-    for (let numeroDinamico=0; numeroDinamico<=10; numeroDinamico++){
+    for (let n=0; n<=10; n++){
 
-    resultadoTotal = i * numeroDinamico;
+    resultadoTotal = i * n;
 
-    console.log(`${i} X ${numeroDinamico} = ${resultadoTotal}`);
+    console.log(`${i} X ${n} = ${resultadoTotal}`);
 
     }
 
