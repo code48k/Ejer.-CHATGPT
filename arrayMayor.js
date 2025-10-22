@@ -14,4 +14,4 @@ for (let i=0; i<myArray.length; i++) {
 
 }
 
-console.log(numeroMayor); // 97
+console.log(numeroMayor); // 999
