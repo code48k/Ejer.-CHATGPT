@@ -4,13 +4,13 @@ numArr = [8, 11, 90, 233, 17546, 225, 24, 12, 50, 100];
 
 for (let x=0; x<numArr.length; x++){
 
-    if(numArr[x] % 3 == 0){
+    if (numArr[x] % 3 == 0){
 
         console.log("El número " + numArr[x] + " es divisible entre 3");
 
     }
 
-    else if (numArr[x] % 5){
+    else if (numArr[x] % 5 == 0){
 
         console.log("El número " + numArr[x] + " es divisible entre 5");
 
