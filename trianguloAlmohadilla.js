@@ -14,4 +14,4 @@ for (let i=veces; i>=1; i--){
 
     console.log(asteriscos);
     
-}
+} 
