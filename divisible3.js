@@ -8,6 +8,6 @@ for (let x=0; x<numArr.length; x++){
 
         console.log("El número " + numArr[x] + " es divisible entre 3");
 
-    }
+    } 
 
 }
