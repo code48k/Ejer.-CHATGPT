@@ -4,9 +4,9 @@ for (let i=2; i<=50; i++){
 
 let esPrimo = true;
 
-    for (let x=2; x <= i-1; x++){ // Esta linea es true o false
+    for (let x=2; x <= i-1; x++){
 
-        if (i % x === 0){ // Esta linea es true o false
+        if (i % x === 0){
 
         esPrimo = false;
 
