@@ -1,3 +1,5 @@
+// Haz dos bucles anidados
+
 for(let e = 2; e<=9; e++){
 
     console.log(`PRIMER FOR: ${e}`);
