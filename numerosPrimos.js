@@ -1,25 +1,24 @@
 // Números primos entre 1 y 50
 
-for (let i=2; i<=50; i++){
+for (let i=2; i<=50; i++) {
     
     let esPrimo = true;
 
-    for (let x=2; x<i; x++){ 
+    for (let x = 2; x<i; x++) { 
 
-        if (i % x !== 0){ 
+        if (i % x === 0) { 
 
-        esPrimo = false;
+            esPrimo = false;
 
-        break;
+            break;
+
+        }
 
     }
 
-}
-
-if (esPrimo){
-
-    console.log(`Número Primo: ${i}`);
-
-}
+    if (esPrimo) {
+        
+        console.log(`Número Primo: ${i}`);
+    }
 
 }
