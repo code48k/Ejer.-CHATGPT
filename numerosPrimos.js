@@ -1,10 +1,10 @@
-// Números primos entre 1 y 50
+// Números primos entre 1 y 13
 
-for (let i=2; i<=50; i++) {
+for (let i=2; i<=13; i++) {
     
     let esPrimo = true;
 
-    for (let x = 2; x<i; x++) { 
+    for (let x = 2; x<i-1; x++) { 
 
         if (i % x === 0) { 
 
