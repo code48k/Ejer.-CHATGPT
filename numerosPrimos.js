@@ -1,4 +1,4 @@
-// Números primos entre 1 y 13
+// Sacame los números primos y compuestos entre 1 y 13
 
 for (let i=2; i<=13; i++) {
     
@@ -9,6 +9,8 @@ for (let i=2; i<=13; i++) {
         if (i % x === 0) { 
 
             esPrimo = false;
+            
+            console.log(`Número compuesto: ${i}`);
 
             break;
 
