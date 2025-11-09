@@ -1,6 +1,6 @@
 // Haz dos bucles anidados
 
-for (let e=2; e<=13; e++){
+for (let e=1; e<=13; e++){
 
     console.log(`PRIMER FOR: PRIMERA VUELTA: ${e}`);
     
