@@ -1,6 +1,6 @@
 // Dado un array, crea uno nuevo con solo los números pares
 
-let myArr = [1, 2, 4, 7, 9, 11, 22, 34, 56, 32, 3, 6];
+let myArr = [1, 2, 4, 7, 9, 11, 22, 34, 56, 3, 6];
 
 let pares = [];
 
