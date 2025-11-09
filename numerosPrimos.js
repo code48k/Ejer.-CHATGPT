@@ -9,8 +9,8 @@ for (let i=2; i<=13; i++) {
         if (i % x === 0) { 
 
             esPrimo = false;
-            
-            console.log(`Número compuesto: ${i}`);
+
+            console.log(`Número Compuesto: ${i}`);
 
             break;
 
