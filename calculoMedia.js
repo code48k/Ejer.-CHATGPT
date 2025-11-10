@@ -8,8 +8,7 @@ for (let i=0; i<myArr.length; i++){
 
     suma += myArr[i];
 
+    resultado = suma / myArr.length;
 }
 
-let media = suma / 2;
-
-console.log(media);
+console.log(resultado);
